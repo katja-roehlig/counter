@@ -41,7 +41,7 @@ function counter() {
   count++;
   number.innerText = count;
   //main.style.setProperty("--bg-size", $'{count}%`);
-  : 0;main.style.setProperty("--bg-size", count + "%");
+  main.style.setProperty("--bg-size", count + "%");
   //main.style.backgroundImage =
   // "linear-gradient(to right, rgb(243, 200, 9) ${count}%, transparent 0)";
   // "linear-gradient(to right, rgb(243, 200, 9) " +
