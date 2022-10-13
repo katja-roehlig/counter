@@ -1,0 +1,50 @@
+/* Global Selectors ********************************************************/
+* {
+  box-sizing: border-box;
+}
+
+/* Tag Selectors ***********************************************************/
+
+body {
+  margin: 0;
+  height: 60vmin;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em;
+}
+main {
+  --bg-size: 0%;
+  height: 60vmin;
+  /*background-image: linear-gradient(
+    to right,
+    rgb(243, 200, 9) 0%,
+    transparent 0
+  );*/
+  background-image: linear-gradient(to right, rgb(243, 200, 9) var(--bg-size), transparent 0);*/
+}
+  
+
+button {
+  padding: 0.5em;
+  font-size: 1em;
+}
+/* Class Selectors **********************************************************/
+.header-style {
+  background-color: rgb(243, 200, 9);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-block: 2em 1em;
+}
+
+/* Id Selectors *************************************************************/
+#number {
+  font-size: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 100%;
+}
