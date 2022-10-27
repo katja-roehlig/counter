@@ -10,17 +10,8 @@ let count = 0;
 
 //EventListener on Main
 main.addEventListener("click", function () {
-  //number.innerText++;
-  //main.style.backgroundImage =
-  //"linear-gradient(to right, yellow " + number.innerText++ +"%, transparent 0)";
   counter();
 });
-
-// Custom Property importieren
-//console.log(getComputedStyle(main).getPropertyValue("--bg-size"));
-
-//CustomProperty nutzen
-//console.log(main.style.setProperty("--bg-size", "${count}%"));
 
 //Eventlistener on Document
 document.addEventListener("keypress", function (event) {
@@ -40,11 +31,5 @@ but.addEventListener("click", function () {
 function counter() {
   count++;
   number.innerText = count;
-  //main.style.setProperty("--bg-size", $'{count}%`);
   main.style.setProperty("--bg-size", count + "%");
-  //main.style.backgroundImage =
-  // "linear-gradient(to right, rgb(243, 200, 9) ${count}%, transparent 0)";
-  // "linear-gradient(to right, rgb(243, 200, 9) " +
-  // count +
-  // "%, transparent 0)";
 }
